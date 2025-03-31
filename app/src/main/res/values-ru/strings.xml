@@ -25,6 +25,8 @@
     <string name="dfu_state_error">Что-то пошло не так. Скорее всего, колонка отказалась от файла прошивки. Проверьте, правильный ли вы выбрали файл и не поврежден ли он. Колонка автоматически перезагрузится в обычный режим. Приложение можно закрыть.</string>
     <string name="settings_send_speaker_data_title">Отправлять данные о колонке</string>
     <string name="settings_send_speaker_data_summary">Отправляются модель колонки, цвет и версия прошивки</string>
+    <string name="settings_enable_qcc_flash_title">Увімкнути експериментальне спалахування QCC</string>
+    <string name="settings_enable_qcc_flash_summary">НЕПЕРЕВІРЕНО! Перезапустите приложение, чтобы применить изменения.</string>
     <string name="settings_send_app_data_title">Отправлять данные об использовании приложения</string>
     <string name="settings_send_app_data_summary">Используются Google Crashlytics и Google Analytics. Перезапустите приложение, чтобы применить изменения.</string>
     <string name="setting_privacy">"Конфиденциальность "</string>

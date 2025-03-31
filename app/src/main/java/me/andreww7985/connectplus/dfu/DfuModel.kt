@@ -68,10 +68,10 @@ class DfuModel(val speaker: SpeakerModel) : BaseModel {
                 return@coroutineScope
             }
 
-            if (!filename.lowercase().endsWith(".dfu")) {
-                wrongFileEvent.fire()
-                return@coroutineScope
-            }
+//            if (!filename.lowercase().endsWith(".dfu")) {
+//                wrongFileEvent.fire()
+//                return@coroutineScope
+//            }
 
             state = State.LOADING_FILE
             dfuModel.filename = filename

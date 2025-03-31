@@ -58,8 +58,12 @@ class MainActivity : AppCompatActivity() {
 
         val speaker = SpeakerManager.selectedSpeaker!!
 
+        val enableQCCFlash = App.sharedPreferences.getBoolean("enable_qcc_flash", true)
+
         /* Only show DFU flash menu on known supported CSR models. */
-        if (speaker.hardware.platform != HwPlatform.CSR) {
+        if ((speaker.hardware.platform == HwPlatform.QCC && !enableQCCFlash)
+            || speaker.hardware.platform == HwPlatform.VIMICRO
+            || speaker.hardware.platform == HwPlatform.UNKNOWN) {
             binding.navMenu.menu.removeItem(R.id.nav_flash_dfu)
         }
 

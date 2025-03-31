@@ -33,6 +33,8 @@
     <string name="setting_privacy">Конфіденційність</string>
     <string name="settings_send_speaker_data_title">Надсилати дані про колонку</string>
     <string name="settings_send_speaker_data_summary">Надсилаються дані про модель, колір та версію ПЗ.</string>
+    <string name="settings_enable_qcc_flash_title">Включить экспериментальную прошивку QCC</string>
+    <string name="settings_enable_qcc_flash_summary">НЕ ИСПЫТАНО! Перезапустіть додаток щоб застосувати зміни.</string>
     <string name="settings_send_app_data_summary">Використовуються Google Crashlytics та Google Analytics. Перезапустіть додаток щоб застосувати зміни.</string>
     <string name="settings_send_app_data_title">Надсилати дані про використання додатку</string>
     <string name="dfu_button_flash">Прошити</string>

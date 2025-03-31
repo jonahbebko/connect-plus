@@ -7,6 +7,11 @@
         android:title="@string/settings_dark_theme_title"
         android:defaultValue="SYSTEM" />
 
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="enable_qcc_flash"
+        android:summary="@string/settings_enable_qcc_flash_summary"
+        android:title="@string/settings_enable_qcc_flash_title" />
     <PreferenceCategory android:title="@string/setting_privacy">
         <CheckBoxPreference
             android:defaultValue="true"
